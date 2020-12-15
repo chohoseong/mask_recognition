@@ -11,9 +11,9 @@ from add_embedding import add_person
 from remove import removefile
 from img_resize import resize_img
 
-projectUI = 'project.ui'
-registerUI = 'register.ui'
-removeUI = 'remove.ui'
+projectUI = './UI/project.ui'
+registerUI = './UI/register.ui'
+removeUI = './UI/remove.ui'
 
 cap = cv2.VideoCapture(0)
 class MainDialog(QDialog):
